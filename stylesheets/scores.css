@@ -1,0 +1,19 @@
+table{
+  border-collapse: collapse;
+}
+
+table th{
+  font-weight: bold;
+}
+
+table td{
+  border: 1px solid #eee;
+}
+
+#home_team, #away_team{
+  width: 10em;
+}
+
+#home_score, #away_score{
+  width: 2em;
+}

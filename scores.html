@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scores</title>
+    <link rel="stylesheet" href="stylesheets/scores.css" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script src="javascripts/game.js"></script>
+    <script src="javascripts/team.js"></script>
+    <script src="javascripts/scoreboard.js"></script>
+    <script src="javascripts/scores.js"></script>
+  </head>
+  <body>
+    <table id="scoreboard">
+      <thead>
+        <tr>
+          <th>Team Name</th>
+          <th>Games Played</th>
+          <th>Goal Difference</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+
+    <h3>Previous Games</h3>
+    <div id="games">
+    </div>
+
+    <h3>Add a Game</h3>
+    <form>
+      <input type="text" id="home_team" />
+      <input type="text" id="home_score" />
+      -
+      <input type="text" id="away_score" />
+      <input type="text" id="away_team" />
+      <input type="submit" value="Add Game" />
+    </form>
+  </body>
+</html>
